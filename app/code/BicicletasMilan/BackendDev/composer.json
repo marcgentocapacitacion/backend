@@ -1,0 +1,16 @@
+{
+    "name":"biciletasmilan/backenddev",
+    "description":"BicicletasMilan NacekndDev Sample extension",
+    "keywords": ["magento2", "biciletasmilan", "m2sample"],
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~7.0.0|~8.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "pasr-4": {
+            "BicicletasMilan\\BackendDev\\": ""
+        }
+    }
+}
