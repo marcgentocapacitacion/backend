@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="BicicletasMilan_ModuloSlick::js/modulo-slick.js" async="async" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="BicicletasMilan\ModuloSlick\Block\Index" name="modulo.slick.milan" template="BicicletasMilan_ModuloSlick::slick.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
